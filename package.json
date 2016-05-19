@@ -1,0 +1,32 @@
+{
+  "name": "nodebb-plugin-tdwtf-censor",
+  "version": "0.0.1",
+  "description": "Censor for WTDWTF",
+  "main": "library.js",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "eslint . && npm run unit_tests",
+    "unit_tests": "istanbul cover _mocha -- ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NedFodder/nodebb-plugin-tdwtf-censor.git"
+  },
+  "keywords": [],
+  "author": "NedFodder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NedFodder/nodebb-plugin-tdwtf-censor/issues"
+  },
+  "homepage": "https://github.com/NedFodder/nodebb-plugin-tdwtf-censor#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^2.9.0",
+    "istanbul": "^0.4.3",
+    "mocha": "^2.4.5",
+    "winston": "^2.2.0"
+  }
+}

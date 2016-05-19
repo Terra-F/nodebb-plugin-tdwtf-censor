@@ -1,0 +1,24 @@
+{
+	"id": "nodebb-plugin-tdwtf-censor",
+	"name": "Censor for WTDWTF",
+	"description": "censor for WTDWTF",
+	"url": "https://github.com/NedFodder/nodebb-tdwtf-censor.git",
+	"languages": "languages",
+	"defaultLang": "en_GB",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "filter:admin.header.build", "method": "adminMenu" },
+		{ "hook": "filter:topic.get", "method": "topicGet" },
+		{ "hook": "filter:topics.get", "method": "topicsGet" },
+		{ "hook": "filter:parse.post", "method": "parsePost" },
+		{ "hook": "filter:parse.signature", "method": "parseSignature" },
+		{ "hook": "filter:parse.raw", "method": "parseRaw" }
+	],
+	"less": [],
+	"acpScripts": [
+		"public/scripts/admin.js"
+	],
+	"templates": "public/templates"
+}
+
