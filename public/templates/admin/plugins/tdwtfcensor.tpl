@@ -8,9 +8,13 @@
 						<div class="col-lg-6">
 							<div class="form-group">
 								<label for="badWords">
-									[[tdwtfcensor:word-list-label]]
+									[[tdwtfcensor:word-list-label-bad]]
 								</label>
-								<input class="form-control" type="text" data-key="badWords" placeholder="sample,words" />
+								<input class="form-control" type="text" data-key="badWords" placeholder="slechte,woorden" />
+								<label for="goodWords">
+									[[tdwtfcensor:word-list-label-good]]
+								</label>
+								<input class="form-control" type="text" data-key="goodWords" placeholder="betere,dingen" />
 							</div>
 							<button class="btn btn-primary" id="save">[[tdwtfcensor:save-button]]</button>
 						</div>

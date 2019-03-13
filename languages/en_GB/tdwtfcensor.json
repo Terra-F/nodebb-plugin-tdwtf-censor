@@ -1,4 +1,5 @@
 {
-    "word-list-label" : "List of words to censor (separated by commas)",
+    "word-list-label-bad" : "List of words to change (separated by commas)",
+    "word-list-label-good" : "List of words to change them into (separated by commas)",
     "save-button": "Save Settings"
 }
