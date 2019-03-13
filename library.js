@@ -1,9 +1,7 @@
 'use strict';
 
 dict = {
-	"goed":"goud",
-	"zes":"zaas",
-	"gefeliciteerd":"gefelicitieerd"
+	"testwoord":"omghetwerk",
 }
 
 var Settings = module.parent.require('./settings'),
