@@ -1,6 +1,6 @@
 'use strict';
 
-dict = {
+var dict = {
 	"testwoord":"omghetwerk",
 }
 
