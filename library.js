@@ -1,5 +1,11 @@
 'use strict';
 
+dict = {
+	"goed":"goud",
+	"zes":"zaas",
+	"gefeliciteerd":"gefelicitieerd"
+}
+
 var Settings = module.parent.require('./settings'),
 	socketAdmin = module.parent.require('./socket.io/admin'),
 	winston = module.parent.require('winston');
@@ -105,7 +111,7 @@ tdwtfCensor.censor = function(data) {
 		var bw = tdwtfCensor.badWords[i];
 		if (bw.length) {
 			var bwreg = new RegExp('\\b' + bw + '\\b', 'ig');
-			data = data.replace(bwreg, stringRepeat('■', bw.length));
+			data = data.replace(bwreg, dict[bw]);
 		}
 	}
 	
