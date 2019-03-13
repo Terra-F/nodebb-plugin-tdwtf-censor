@@ -1,8 +1,8 @@
 {
 	"id": "nodebb-plugin-tdwtf-censor",
-	"name": "Censor for WTDWTF",
-	"description": "censor for WTDWTF",
-	"url": "https://github.com/NedFodder/nodebb-tdwtf-censor.git",
+	"name": "Censor for Terra-F",
+	"description": "censor for Terra-F",
+	"url": "https://github.com/Terra-F/nodebb-plugin-tdwtf-censor.git",
 	"languages": "languages",
 	"defaultLang": "en_GB",
 	"library": "./library.js",
