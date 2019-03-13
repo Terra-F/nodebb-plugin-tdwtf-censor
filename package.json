@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-tdwtf-censor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Censuur voor Terra-F",
   "main": "library.js",
   "nbbpm": {

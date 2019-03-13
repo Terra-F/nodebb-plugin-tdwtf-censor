@@ -1,7 +1,11 @@
 'use strict';
 
 var dict = {
-	"testwoord":"omghetwerk",
+	"goed":"goud",
+	"gefeliciteerd":"gefelicitieerd",
+	"misselijk":"zwanger",
+	"schoonmaken":"kuisen",
+	"kopen":"kuisen"
 }
 
 var Settings = module.parent.require('./settings'),
