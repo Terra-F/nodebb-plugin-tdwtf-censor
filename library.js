@@ -5,7 +5,14 @@ var dict = {
 	"gefeliciteerd":"gefelicitieerd",
 	"misselijk":"zwanger",
 	"schoonmaken":"kuisen",
-	"kopen":"kuisen"
+	"schoongemaakt":"gekuist"
+	"kopen":"kuisen",
+	"gekocht":"gekuist",
+	"hoer":"kech",
+	"slet":"kech",
+	"regelen":"smikkelen",
+	"geregeld":"gesmikkeld",
+	"straf":"stráááf"
 }
 
 var Settings = module.parent.require('./settings'),
