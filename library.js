@@ -12,7 +12,12 @@ var dict = {
 	"slet":"kech",
 	"regelen":"smikkelen",
 	"geregeld":"gesmikkeld",
-	"straf":"stráááf"
+	"straf":"stráááf",
+	"top":"'vo",
+	"girl":"guuuuuul",
+	"vrouw":"guuurl",
+	"meisje":"guuuurl",
+	"chick":"guuuuurl"
 }
 
 var Settings = module.parent.require('./settings'),
