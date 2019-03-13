@@ -1,23 +1,28 @@
 'use strict';
 
 var dict = {
-	"goed":"goud",
-	"gefeliciteerd":"gefelicitieerd",
-	"misselijk":"zwanger",
-	"schoonmaken":"kuisen",
-	"schoongemaakt":"gekuist"
-	"kopen":"kuisen",
-	"gekocht":"gekuist",
-	"hoer":"kech",
-	"slet":"kech",
-	"regelen":"smikkelen",
-	"geregeld":"gesmikkeld",
-	"straf":"stráááf",
-	"top":"'vo",
-	"girl":"guuuuuul",
-	"vrouw":"guuurl",
-	"meisje":"guuuurl",
-	"chick":"guuuuurl"
+        "goed":"goud",
+        "gefeliciteerd":"gefelicitieerd",
+        "misselijk":"zwanger",
+        "schoonmaken":"kuisen",
+        "schoongemaakt":"gekuist",
+        "kopen":"kuisen",
+        "gekocht":"gekuist",
+        "hoer":"kech",
+        "slet":"kech",
+        "regelen":"smikkelen",
+        "geregeld":"gesmikkeld",
+        "straf":"stráááf",
+        "top":"'vo",
+        "girl":"guuuuuul",
+        "vrouw":"guuurl",
+        "meisje":"guuuurl",
+        "chick":"guuuuurl",
+        "omg":"oh my gold",
+        "bier":"goudgele pretcilinders",
+        "eten":"smikkelen",
+        "regelen":"smikkelen",
+        "gezoend":"gesmikkeld"
 }
 
 var Settings = module.parent.require('./settings'),
